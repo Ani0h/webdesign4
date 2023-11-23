@@ -5,7 +5,7 @@
 <title>MLBB GALLERY</title>
 <style>
 body	
-		{
+		{{font-family:arial, helvetica, sans-serif;
 		background-image: url("images/largewp.jpg");
 		background-attachment:fixed;
 		background-color:rgb(46,16,181);
@@ -33,13 +33,13 @@ h1		{
 		}
 h2		{
 		font-family:pristina;
-		color:#0CFEFF;
+		color:rgb(12,254,255);
 		font-size: 10em;
 		text-align:center;
 		text-transform:uppercase;
 		}
 h3		{
-		color:#0CFEFF;
+		color:rgb(12,254,255);
 		font-size:1em;
 		text-align:center;
 		text-transform:uppercase;
@@ -59,7 +59,7 @@ h5 		{
 		}
 		
 li  	{
-		color:#0CFEFF;
+		color:rgb(12,254,255);
 		font-size:3em;
 		}
 p		{
@@ -68,6 +68,13 @@ p		{
 		font-size:1.2em;
 		color:#CCEDFE;
 			}
+p.contact1{
+		font-size:1em;
+		font-family:arial narrow;
+		color:rgb(255,255,255);
+		}
+img 	{border: 3px solid rgb(72,209,204);}
+
 a:link	{
 		font-family:ink free;
 		font-size:2em;
@@ -89,6 +96,29 @@ a:active{
 		background-color:transparent;
 		text-decoration: none;
 		}
+		
+.contact:link 
+		{font-family:arial narrow;
+		font-size:1em;
+		color:rgb(255,255,255);
+		text-decoration:underline;
+		}
+.contact:visited 
+		{font-family:arial narrow;
+		color:rgb(255,255,255);
+		text-decoration:underline;
+		}
+.contact:hover 
+		{font-family:arial narrow;
+		color:rgb(255,255,0);
+		text-decoration:underline;
+		}
+.contact:active 
+		{font-family:arial narrow;
+		color:rgb(255,255,0);
+		text-decoration:underline;
+		}					
+		
 .navspace	{
 		padding-left:25px;
 		}		
@@ -112,8 +142,15 @@ a:active{
 			color:rbg(0,0,0);
 			background-color:rgba(25,104,165,0.8);
 			}
-.Contact{
-		background-color:white
+.Contact2{
+			text-align:center;
+		}
+address {
+		color:rgb(255,255,255);
+			}
+footer {
+		color:rgb(255,255,255);
+		text-align: center;
 		}
 
 
@@ -129,7 +166,9 @@ a:active{
 <hr>
 
 <div id="wrapper">
+<header>
 <h2>GALLERY</h2>
+</header>
 
 <ol>
 	<div class="container">
@@ -141,7 +180,7 @@ a:active{
 			<h4>HARLEY</h4>
 			<a target="_blank" href="images/harley.jpg"><img src="images/harley-small.png"/></a>
 			<h5>POKE</h5>
-			<p>"Welcome to the greatest magic show of all time!"</p>
+			<p><q>Welcome to the greatest magic show of all time!</q></p>
 			</div>
 			
 			<div class="card">
@@ -300,13 +339,35 @@ a:active{
 
 </div>
 
-<div class="Contact">
-<p>watch my live stream on the  mobile legends: bang bang &#169; app<br>
-my Channel &#11088;An&#161;<strong>&#903;</strong>0h&#11088;</p>
-<p>Email: <a href="mailto: anniecamegame@gmail.com"> Email Annie Mzembe</a></p>
-<p>TikTok: &#11088;An&#161;&#10045;0h&#11088; @ani0h</p>
-<p> visit the official Mobile LEGENDS website.</p>
+<div class="Contact2">
+
+<p class="contact1">
+
+Watch my live streams on the
+ <a class="contact"  target="_blank" href= "https://play.google.com/store/apps/details?id=com.mobile.legends">Mobile Legends:Bang Bang&#169; app</a>
+ <br>
+My Channel &#11088;An&#161;<strong>&#903;</strong>0h&#11088;<br>
+<a class="contact" href="mailto: anniecamegame@gmail.com"> Email Annie Mzembe</a>
+<br>
+TikTok: &#11088;An&#161;&#10045;0h&#11088; <a class="contact"  target="_blank" href= "https://www.tiktok.com/@ani0h">@ani0h</a>
+<br>
+<a class="contact"  target="_blank" href= "https://www.mobilelegends.com/en">visit the official MOBILE LEGENDS website</a>
+<br>
+
+<address>
+written by Annie Mzembe.<br>
+Lord Edward street<br>
+Kilmallock<br>
+Co.Limerick<br>
+</address>
+
+</p>
+
 </div>
+
+<footer>
+Annie mzembe &#169;
+</footer>
 
 </body>
 </html>
